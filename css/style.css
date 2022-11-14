@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+
+}
+
+.navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 30px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search-bar button img{
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+.search-bar button{
+  border: 0;
+  border-radius: 50%;
+  width:80px;
+  height: 20px;
+  background: none;
+}
+
+.search-bar{
+float: right;
+}
+
+#home{
+  display: flex;
+  flex-direction: column;
+  height: 840px;
+  justify-content: center;
+  align-items: left;
+}
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.billing{
+  background-color: white;
+position: absolute;
+top: 20%;
+left: 1%;
+width: 500px;
+height: 350px;
+border-radius: 3%;
+border: 1px solid purple;
+}
+
+.billing a{
+  color: black;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+font-size: 20px;
+}
+
+.def{
+    display: block;
+    text-align:
+    color: gray;
+  position: absolute;
+  top: 27%;
+  font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.def a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+}
+
+.mark{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 33%;
+font-size: 20px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+font-weight: bold;
+}
+
+.mark a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+}
+
+.str{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 37%;
+font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.str a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  position: absolute;
+  top: 48%;
+  left: 3%
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+
+td img{
+  width: 30px;
+  height: 30px;
+}
